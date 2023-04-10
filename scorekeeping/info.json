@@ -1,12 +1,14 @@
 {
-    "name": "Scorekeeping",
-    "author": "Your Name Here",
+    "name": "scorekeeping",
+    "author": "Oreo",
     "description": "A RedBot cog for recording wins and losses between Discord users.",
     "end_user_data_statement": "This cog does not persistently store data or metadata about users.",
     "version": "1.0",
     "min_bot_version": "3.0.0",
 	"type": "COG",
-    "required_cogs": [],
+    "required_cogs": [
+        "Red-DiscordBot": ">=3.0.0",
+    ],
     "commands": [
         {
             "name": "record",
