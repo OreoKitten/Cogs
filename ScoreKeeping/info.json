@@ -6,7 +6,9 @@
     "version": "1.0",
     "min_bot_version": "3.0.0",
 	"type": "COG",
-    "required_cogs": [],
+    "required_cogs": [
+        "Red-DiscordBot": ">=3.0.0",
+    ],
     "commands": [
         {
             "name": "record",
