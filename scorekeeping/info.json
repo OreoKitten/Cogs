@@ -7,7 +7,7 @@
     "min_bot_version": "3.0.0",
 	"type": "COG",
     "required_cogs": [
-        "Red-DiscordBot": ">=3.0.0",
+        "Red-DiscordBot": ">=3.0.0"
     ],
     "commands": [
         {
