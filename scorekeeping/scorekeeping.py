@@ -4,7 +4,7 @@ from datetime import datetime
 import discord
 from discord.ext import commands
 
-class Scorekeeping(commands.Cog):
+class scorekeeping(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.conn = sqlite3.connect('scores.db')
@@ -59,4 +59,4 @@ class Scorekeeping(commands.Cog):
             await ctx.send('No recent results.')
 
 def setup(bot):
-    bot.add_cog(Scorekeeping(bot))
+    bot.add_cog(scorekeeping(bot))
