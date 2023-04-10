@@ -4,11 +4,7 @@
     "description": "A RedBot cog for recording wins and losses between Discord users.",
     "end_user_data_statement": "This cog does not persistently store data or metadata about users.",
     "version": "1.0",
-    "min_bot_version": "3.0.0",
-	"type": "COG",
-    "required_cogs": [
-        "Red-DiscordBot": ">=3.0.0"
-    ],
+    "required_cogs": {},
     "commands": [
         {
             "name": "record",
@@ -29,5 +25,9 @@
         }
     ],
     "permissions": [],
-    "install_msg": ""
+    "install_msg": "",
+    "min_bot_version": "3.3.10",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
 }
